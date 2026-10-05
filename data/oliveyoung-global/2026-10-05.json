@@ -1,6 +1,6 @@
 {
 "date": "2026-10-05",
-"fetchedAt": "2026-10-05T19:32+09:00",
+"fetchedAt": "2026-10-05T19:53+09:00",
 "items": [
 {
 "rank": 1,
@@ -12,7 +12,7 @@
 "discount": 50,
 "currency": "USD",
 "rating": 4.9,
-"reviews": 7782,
+"reviews": 7784,
 "category": null,
 "soldOut": false,
 "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA240824996"
@@ -27,7 +27,7 @@
 "discount": 24,
 "currency": "USD",
 "rating": 4.9,
-"reviews": 1319,
+"reviews": 1320,
 "category": null,
 "soldOut": false,
 "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA260136559"
@@ -777,7 +777,7 @@
 "discount": 25.16,
 "currency": "USD",
 "rating": 4.8,
-"reviews": 343,
+"reviews": 344,
 "category": null,
 "soldOut": false,
 "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA260338983"
@@ -1047,7 +1047,7 @@
 "discount": 20,
 "currency": "USD",
 "rating": 4.7,
-"reviews": 883,
+"reviews": 884,
 "category": null,
 "soldOut": false,
 "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA260641155"
@@ -1287,7 +1287,7 @@
 "discount": 62.51,
 "currency": "USD",
 "rating": 4.8,
-"reviews": 155,
+"reviews": 156,
 "category": null,
 "soldOut": false,
 "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA260842466"
@@ -1302,7 +1302,7 @@
 "discount": 37.5,
 "currency": "USD",
 "rating": 4.7,
-"reviews": 452,
+"reviews": 454,
 "category": null,
 "soldOut": false,
 "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA251034213"

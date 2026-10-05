@@ -1,6 +1,6 @@
 {
 "date": "2026-10-05",
-"fetchedAt": "2026-10-05T19:32+09:00",
+"fetchedAt": "2026-10-05T19:53+09:00",
 "items": [
 {
 "rank": 1,
@@ -12,7 +12,7 @@
 "discount": 1,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 128,
+"reviews": 135,
 "category": "메이크업 > 베이스메이크업 > 쿠션",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268586"
@@ -42,7 +42,7 @@
 "discount": 2,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 222,
+"reviews": 237,
 "category": "메이크업 > 베이스메이크업 > 파우더/팩트",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001001705"
@@ -57,7 +57,7 @@
 "discount": 22,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 1247,
+"reviews": 1261,
 "category": "더모 코스메틱 > 스킨케어 > 로션/크림/올인원",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267744"
@@ -71,8 +71,8 @@
 "originalPrice": 46600,
 "discount": 22,
 "currency": "KRW",
-"rating": 4.9,
-"reviews": 134,
+"rating": 4.8,
+"reviews": 137,
 "category": "구강용품 > 치약 > 잇몸케어/시린이",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000269281"
@@ -102,7 +102,7 @@
 "discount": 10,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 9744,
+"reviews": 9757,
 "category": "바디케어 > 샤워/입욕 > 바디워시",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238525"
@@ -117,7 +117,7 @@
 "discount": 2,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 90,
+"reviews": 96,
 "category": "메이크업 > 베이스메이크업 > 파우더/팩트",
 "soldOut": true,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268585"
@@ -132,7 +132,7 @@
 "discount": 28,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 82496,
+"reviews": 82514,
 "category": "마스크팩 > 패드 > 패드",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267747"
@@ -147,7 +147,7 @@
 "discount": 10,
 "currency": "KRW",
 "rating": 4.6,
-"reviews": 5367,
+"reviews": 5374,
 "category": "메이크업 > 립메이크업 > 립라이너",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000243859"
@@ -162,7 +162,7 @@
 "discount": 28,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 63550,
+"reviews": 63588,
 "category": "메이크업 > 립메이크업 > 립글로스",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000246445"
@@ -192,7 +192,7 @@
 "discount": 23,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 513,
+"reviews": 530,
 "category": "메이크업 > 베이스메이크업 > 블러셔",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001001750"
@@ -207,7 +207,7 @@
 "discount": 2,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 54557,
+"reviews": 54576,
 "category": "선케어 > 선크림 > 선크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263510"
@@ -222,7 +222,7 @@
 "discount": 43,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 11637,
+"reviews": 11661,
 "category": "바디케어 > 바디로션/크림 > 바디로션",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000237485"
@@ -237,7 +237,7 @@
 "discount": 52,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 34088,
+"reviews": 34099,
 "category": "마스크팩 > 시트팩 > 시트 마스크",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000231836"
@@ -252,7 +252,7 @@
 "discount": 30,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 6982,
+"reviews": 7002,
 "category": "구강용품 > 애프터구강케어 > 가글",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248175"
@@ -297,7 +297,7 @@
 "discount": 39,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 11492,
+"reviews": 11502,
 "category": "클렌징 > 오일/밤 > 클렌징밤",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267517"
@@ -327,7 +327,7 @@
 "discount": 26,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 17123,
+"reviews": 17141,
 "category": "메이크업 > 베이스메이크업 > 쿠션",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268380"
@@ -342,7 +342,7 @@
 "discount": 43,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 4098,
+"reviews": 4122,
 "category": "스킨케어 > 에센스/세럼/앰플 > 에센스/세럼/앰플",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267748"
@@ -357,7 +357,7 @@
 "discount": 28,
 "currency": "KRW",
 "rating": 5,
-"reviews": 139,
+"reviews": 141,
 "category": "메이크업 > 베이스메이크업 > 파운데이션",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268674"
@@ -372,7 +372,7 @@
 "discount": 24,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 3098,
+"reviews": 3104,
 "category": "선케어 > 선크림 > 선크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247241"
@@ -417,7 +417,7 @@
 "discount": 35,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 24101,
+"reviews": 24112,
 "category": "클렌징 > 오일/밤 > 클렌징오일",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268374"
@@ -447,7 +447,7 @@
 "discount": 25,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 40549,
+"reviews": 40561,
 "category": "더모 코스메틱 > 스킨케어 > 로션/크림/올인원",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263017"
@@ -492,7 +492,7 @@
 "discount": 34,
 "currency": "KRW",
 "rating": 4.6,
-"reviews": 14841,
+"reviews": 14859,
 "category": "메이크업 > 립메이크업 > 립케어",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235485"
@@ -507,7 +507,7 @@
 "discount": 25,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 5766,
+"reviews": 5788,
 "category": "스킨케어 > 에센스/세럼/앰플 > 에센스/세럼/앰플",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263664"
@@ -522,7 +522,7 @@
 "discount": 8,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 3107,
+"reviews": 3121,
 "category": "바디케어 > 바디로션/크림 > 바디크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249154"
@@ -537,7 +537,7 @@
 "discount": 0,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 41577,
+"reviews": 41595,
 "category": "더모 코스메틱 > 스킨케어 > 로션/크림/올인원",
 "soldOut": true,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864"
@@ -567,7 +567,7 @@
 "discount": 29,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 207014,
+"reviews": 207105,
 "category": "메이크업 > 립메이크업 > 립틴트",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000244834"
@@ -582,7 +582,7 @@
 "discount": 10,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 13805,
+"reviews": 13809,
 "category": "스킨케어 > 에센스/세럼/앰플 > 에센스/세럼/앰플",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267876"
@@ -597,7 +597,7 @@
 "discount": 35,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 4446,
+"reviews": 4455,
 "category": "스킨케어 > 에센스/세럼/앰플 > 에센스/세럼/앰플",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262820"
@@ -614,7 +614,7 @@
 "rating": 4.9,
 "reviews": 49898,
 "category": "바디케어 > 바디로션/크림 > 바디로션",
-"soldOut": false,
+"soldOut": true,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171848"
 },
 {
@@ -627,7 +627,7 @@
 "discount": 34,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 2044,
+"reviews": 2059,
 "category": "클렌징 > 클렌징폼/젤 > 클렌징폼/젤",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267909"
@@ -657,7 +657,7 @@
 "discount": 10,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 38986,
+"reviews": 39021,
 "category": "메이크업 > 립메이크업 > 립틴트",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000234394"
@@ -672,7 +672,7 @@
 "discount": 15,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 26243,
+"reviews": 26248,
 "category": "마스크팩 > 페이셜팩 > 슬리핑/앰플팩",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000234422"
@@ -702,7 +702,7 @@
 "discount": 44,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 14095,
+"reviews": 14106,
 "category": "마스크팩 > 패치 > 패치",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233470"
@@ -732,7 +732,7 @@
 "discount": 30,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 4970,
+"reviews": 4976,
 "category": "스킨케어 > 크림 > 크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752"
@@ -762,7 +762,7 @@
 "discount": 1,
 "currency": "KRW",
 "rating": 4.4,
-"reviews": 980,
+"reviews": 984,
 "category": "클렌징 > 필링&스크럽 > 피지클리너",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261788"
@@ -777,7 +777,7 @@
 "discount": 33,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 4405,
+"reviews": 4413,
 "category": "뷰티소품 > 아이래쉬 툴 > 속눈썹/쌍꺼풀",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000265321"
@@ -792,7 +792,7 @@
 "discount": 33,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 14122,
+"reviews": 14134,
 "category": "스킨케어 > 에센스/세럼/앰플 > 에센스/세럼/앰플",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000231884"
@@ -807,7 +807,7 @@
 "discount": 30,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 81286,
+"reviews": 81328,
 "category": "마스크팩 > 시트팩 > 겔 마스크",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000239102"
@@ -852,7 +852,7 @@
 "discount": 34,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 33644,
+"reviews": 33686,
 "category": "선케어 > 선크림 > 선크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000232672"
@@ -882,7 +882,7 @@
 "discount": 10,
 "currency": "KRW",
 "rating": 4.4,
-"reviews": 6650,
+"reviews": 6660,
 "category": "메이크업 > 립메이크업 > 립틴트",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255256"
@@ -912,7 +912,7 @@
 "discount": 46,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 110,
+"reviews": 114,
 "category": "구강용품 > 애프터구강케어 > 구강스프레이",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268880"
@@ -942,7 +942,7 @@
 "discount": 39,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 56016,
+"reviews": 56027,
 "category": "스킨케어 > 미스트/오일 > 미스트",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000259555"
@@ -987,7 +987,7 @@
 "discount": 29,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 169,
+"reviews": 174,
 "category": "취미/팬시 > 캐릭터/굿즈 > 키링/인형",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001001752"
@@ -1017,7 +1017,7 @@
 "discount": 40,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 10074,
+"reviews": 10079,
 "category": "클렌징 > 오일/밤 > 클렌징밤",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268566"
@@ -1092,7 +1092,7 @@
 "discount": 15,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 1624,
+"reviews": 1648,
 "category": "마스크팩 > 시트팩 > 시트 마스크",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000269161"
@@ -1107,7 +1107,7 @@
 "discount": 44,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 9159,
+"reviews": 9165,
 "category": "마스크팩 > 패드 > 패드",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268910"
@@ -1122,7 +1122,7 @@
 "discount": 28,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 8843,
+"reviews": 8863,
 "category": "뷰티소품 > 메이크업 툴 > 퍼프",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268571"
@@ -1137,7 +1137,7 @@
 "discount": 36,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 23970,
+"reviews": 24013,
 "category": "스킨케어 > 에센스/세럼/앰플 > 에센스/세럼/앰플",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000231822"
@@ -1152,7 +1152,7 @@
 "discount": 20,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 617,
+"reviews": 655,
 "category": "푸드 > 과자/초콜릿/디저트 > 케이크/빵/전통간식",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267664"
@@ -1167,7 +1167,7 @@
 "discount": 57,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 24042,
+"reviews": 24080,
 "category": "위생용품 > 생리/위생용품 > 입는 생리대",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268429"
@@ -1197,7 +1197,7 @@
 "discount": 26,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 129,
+"reviews": 131,
 "category": "스킨케어 > 크림 > 크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267573"
@@ -1212,7 +1212,7 @@
 "discount": 20,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 2053,
+"reviews": 2059,
 "category": "스킨케어 > 스킨/토너 > 스킨/토너",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000245794"
@@ -1227,7 +1227,7 @@
 "discount": 23,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 12400,
+"reviews": 12414,
 "category": "메이크업 > 베이스메이크업 > 쿠션",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000253122"
@@ -1257,7 +1257,7 @@
 "discount": 10,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 14337,
+"reviews": 14350,
 "category": "더모 코스메틱 > 스킨케어 > 로션/크림/올인원",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263068"
@@ -1317,7 +1317,7 @@
 "discount": 34,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 11474,
+"reviews": 11500,
 "category": "스킨케어 > 크림 > 크림",
 "soldOut": true,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268107"
@@ -1362,7 +1362,7 @@
 "discount": 3,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 34367,
+"reviews": 34380,
 "category": "위생용품 > 생리/위생용품 > 입는 생리대",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268769"
@@ -1377,7 +1377,7 @@
 "discount": 47,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 10067,
+"reviews": 10073,
 "category": "스킨케어 > 크림 > 크림",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268909"
@@ -1392,7 +1392,7 @@
 "discount": 15,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 2157,
+"reviews": 2177,
 "category": "메이크업 > 베이스메이크업 > 블러셔",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263020"
@@ -1407,7 +1407,7 @@
 "discount": 20,
 "currency": "KRW",
 "rating": 4.7,
-"reviews": 10815,
+"reviews": 10826,
 "category": "메이크업 > 베이스메이크업 > 쿠션",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233171"
@@ -1437,7 +1437,7 @@
 "discount": 26,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 4169,
+"reviews": 4181,
 "category": "구강용품 > 애프터구강케어 > 가글",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268878"
@@ -1467,7 +1467,7 @@
 "discount": 43,
 "currency": "KRW",
 "rating": 4.8,
-"reviews": 25032,
+"reviews": 25035,
 "category": "더모 코스메틱 > 스킨케어 > 로션/크림/올인원",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263530"
@@ -1497,7 +1497,7 @@
 "discount": 45,
 "currency": "KRW",
 "rating": 4.9,
-"reviews": 1030,
+"reviews": 1035,
 "category": "구강용품 > 치약 > 잇몸케어/시린이",
 "soldOut": false,
 "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262623"
