@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://experimory-crypto.github.io/k-ranking/sitemap.xml
