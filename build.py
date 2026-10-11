@@ -13,6 +13,8 @@ DATA = os.path.join(HERE, "data")
 OUT = os.path.join(HERE, "docs")
 SITE_URL = os.environ.get("SITE_URL", "https://experimory-crypto.github.io/k-ranking/").rstrip("/") + "/"
 APIFY = "https://apify.com/magenta_courser/"
+# GoatCounter site code (https://<code>.goatcounter.com); empty = no analytics.
+GOATCOUNTER = os.environ.get("GOATCOUNTER", "k-ranking")
 
 PAGES = {
     "daiso": dict(
@@ -122,6 +124,13 @@ def row(x, key, t):
     return f'<tr data-q="{e((x.get("brand") or "") + " " + x["name"]).lower()}">' + "".join(cells) + "</tr>"
 
 
+def analytics():
+    if not GOATCOUNTER:
+        return ""
+    return (f'<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" '
+            'async src="//gc.zgo.at/count.js"></script>')
+
+
 def head(title, desc, lang, path, prefix, jsonld=""):
     return f"""<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8">
@@ -130,7 +139,7 @@ def head(title, desc, lang, path, prefix, jsonld=""):
 <link rel="canonical" href="{SITE_URL}{path}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
 <meta property="og:type" content="website"><meta property="og:url" content="{SITE_URL}{path}">
-<link rel="stylesheet" href="{prefix}style.css">{jsonld}</head><body>
+<link rel="stylesheet" href="{prefix}style.css">{jsonld}{analytics()}</head><body>
 <header class="top"><a class="logo" href="{prefix}index.html">오늘의 K랭킹</a>
 <nav><a href="{prefix}daiso.html">다이소</a><a href="{prefix}oliveyoung.html">올리브영</a><a href="{prefix}en/k-beauty-best-sellers.html">K-Beauty (EN)</a></nav></header>
 <main>"""
