@@ -8,6 +8,8 @@ import json
 import os
 from datetime import datetime
 
+import build_au
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 OUT = os.path.join(HERE, "docs")
@@ -142,7 +144,7 @@ def head(title, desc, lang, path, prefix, jsonld=""):
 <meta property="og:type" content="website"><meta property="og:url" content="{SITE_URL}{path}">
 <link rel="stylesheet" href="{prefix}style.css">{jsonld}{analytics()}</head><body>
 <header class="top"><a class="logo" href="{prefix}index.html">오늘의 K랭킹</a>
-<nav><a href="{prefix}daiso.html">다이소</a><a href="{prefix}oliveyoung.html">올리브영</a><a href="{prefix}en/k-beauty-best-sellers.html">K-Beauty (EN)</a></nav></header>
+<nav><a href="{prefix}daiso.html">다이소</a><a href="{prefix}oliveyoung.html">올리브영</a><a href="{prefix}en/k-beauty-best-sellers.html">K-Beauty (EN)</a><a href="{prefix}au/index.html">AU Specials</a></nav></header>
 <main>"""
 
 
@@ -208,9 +210,9 @@ def build_index(results):
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write("\n".join(out))
 
 
-def build_meta():
+def build_meta(extra=()):
     today = datetime.now().strftime("%Y-%m-%d")
-    urls = [""] + [c["path"] for c in PAGES.values()]
+    urls = [""] + [c["path"] for c in PAGES.values()] + list(extra)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
         "".join(f"<url><loc>{SITE_URL}{u}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls) +
@@ -222,7 +224,9 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     results = {k: build_page(k, c) for k, c in PAGES.items()}
     build_index(results)
-    build_meta()
+    au = build_au.build(head_extra='<meta name="google-site-verification" '
+                        'content="ddOe3T7hgUrxZfu9wyzTWHohFLFt5zm6lUy1jZbl9IA">' + analytics())
+    build_meta(["au/index.html"] if au else [])
     css = os.path.join(HERE, "style.css")
     open(os.path.join(OUT, "style.css"), "w").write(open(css).read())
     print("built", len(results) + 1, "pages")

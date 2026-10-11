@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "30 0 * * *"   # 09:30 KST
   workflow_dispatch:
+concurrency: site-update
 permissions:
   contents: write
 jobs:
