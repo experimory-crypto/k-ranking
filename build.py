@@ -135,6 +135,7 @@ def head(title, desc, lang, path, prefix, jsonld=""):
     return f"""<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="ddOe3T7hgUrxZfu9wyzTWHohFLFt5zm6lUy1jZbl9IA">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{SITE_URL}{path}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
