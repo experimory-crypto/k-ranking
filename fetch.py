@@ -1,12 +1,14 @@
 """Run the Daiso and Olive Young actors once and save today's snapshots to data/.
 
-Auth: APIFY_TOKEN env var (GitHub Actions) or, if unset, the logged-in `apify` CLI (local).
+Auth: APIFY_TOKEN env var (the daily workflow maps its dedicated secret here)
+or, if unset, the logged-in `apify` CLI (local).
 Snapshots keep only public ranking facts (rank, name, brand, price, ratings, link).
 """
 import json
 import os
 import subprocess
 import sys
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -32,8 +34,16 @@ def run_actor(act_id, inp):
         req = urllib.request.Request(
             "https://api.apify.com" + path, data=json.dumps(inp).encode(),
             headers={"Content-Type": "application/json", "Authorization": f"Bearer {token}"})
-        with urllib.request.urlopen(req, timeout=320) as r:
-            return json.load(r)
+        try:
+            with urllib.request.urlopen(req, timeout=320) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 401:
+                raise SystemExit(
+                    "Apify returned HTTP 401 Unauthorized. Verify the supplied credential "
+                    "and Actor access; daily GitHub Actions uses APIFY_DAILY_TOKEN."
+                ) from None
+            raise
     out = subprocess.run(["apify", "api", "POST", path, "-d", json.dumps(inp, ensure_ascii=False)],
                          capture_output=True, text=True, stdin=subprocess.DEVNULL, check=True)
     return json.loads(out.stdout)
