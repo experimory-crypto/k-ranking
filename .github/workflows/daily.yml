@@ -17,8 +17,13 @@ jobs:
           python-version: "3.12"
       - name: Fetch rankings from Apify
         env:
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: python fetch.py
+          APIFY_TOKEN: ${{ secrets.APIFY_DAILY_TOKEN }}
+        run: |
+          if [ -z "${APIFY_TOKEN:-}" ]; then
+            echo "::error::Missing repository Actions secret APIFY_DAILY_TOKEN. Daily collection was not started."
+            exit 2
+          fi
+          python fetch.py
       - name: Build site
         run: python build.py
       - name: Commit
